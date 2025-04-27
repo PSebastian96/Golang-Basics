@@ -78,7 +78,9 @@ Summary Table of Reserved Keywords:
 
 <h3>6. 🔥 Installing libraries</h3>
 <p>✅ go get automatically updates your go.mod and go.sum.</p>
-![image](https://github.com/user-attachments/assets/85265d09-f6cf-4f04-a1ce-f5c60c054fb8)
+
+![image](https://github.com/user-attachments/assets/561e94a7-ead4-4997-a330-93e1a2261598)
+
 
 <h3>7. 🧪 Run your app</h3>
 <p>✅ This runs the application.</p>
