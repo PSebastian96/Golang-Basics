@@ -1,5 +1,6 @@
 
-<h1> 💻 Golang Basics - Golang Syntax and Code Examples</h1>
+<h1>GOLANG BASICS - SYNTAX AND CODE EXAMPLES</h1>
+<h1> 💻 Golang Basics - Golang CLI and Reserved Keywords</h1>
 
 
 <h3>Golang CLI commands:</h3>
