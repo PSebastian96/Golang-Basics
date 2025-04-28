@@ -31,6 +31,45 @@ Summary Table of Reserved Keywords:
 | **Types**             | `interface`, `struct`, `type`                                                                                                                     |
 | **Other**             | `nil`, `panic`, `recover`, `import`, `package`
 
+<h1>📜 Golang Formatting, Padding, Escaping and Time Format Cheatsheet</h1>
+
+|Category | Character | Meaning | Example|
+|---------|-----------|---------|--------|
+|Format Specifiers | %d | Decimal integer | fmt.Printf("%d", 123) → 123
+| | %s | String | fmt.Printf("%s", "hello") → hello
+| | %f | Float (decimal) | fmt.Printf("%.2f", 3.1415) → 3.14
+| | %t | Boolean | fmt.Printf("%t", true) → true
+| | %v | Default format (any type) | fmt.Printf("%v", myVar)
+| | %+v | Struct with field names | fmt.Printf("%+v", myStruct)
+| | %#v | Go-syntax format | fmt.Printf("%#v", myStruct)
+| | %T | Type of a variable | fmt.Printf("%T", myVar)
+| | %p | Pointer address | fmt.Printf("%p", &myVar)
+| | %% | Literal percent sign | fmt.Printf("%%") → %
+|Aligning & Padding | %5d | Right-align with spaces | fmt.Printf("%5d", 42) → "   42"
+| | %-5d | Left-align | fmt.Printf("%-5d", 42) → "42   "
+| | %05d | Zero padding | fmt.Printf("%05d", 42) → "00042"
+| | %8s | Right-align string | fmt.Printf("%8s", "go") → "      go"
+|Escape Sequences | \n | Newline | "Hello\nWorld"
+| | \t | Tab | "Hello\tWorld"
+| | \\ | Backslash | "C:\\path\\file.txt"
+| | \" | Double quote inside string | "She said: \"Hi\""
+| | \r | Carriage return | Overwrites line (rare)
+|Time Formatting | Mon Jan 2 15:04:05 MST 2006 | Base format | time.Now().Format("2006-01-02 15:04:05")
+| | 2006 | Year | Format("2006") → 2025
+| | 01 | Month (zero-padded) | Format("01") → 04
+| | 2 | Day (no padding) | Format("2") → 9
+| | 02 | Day (zero-padded) | Format("02") → 09
+| | 15 | Hour (24h) | Format("15") → 23
+| | 03 | Hour (12h) | Format("03") → 11
+| | 04 | Minute | Format("04") → 07
+| | 05 | Second | Format("05") → 45
+| | PM | AM/PM | Format("PM") → PM
+| | MST | Timezone | Format("MST") → UTC
+|Custom Date Examples | time.Now().Format("02-Jan-2006") | 09-Apr-2025 | 
+| | time.Now().Format("2006/01/02 15:04") | 2025/04/09 22:45 | 
+| | time.Now().Format("Mon, 02 Jan 2006") | Wed, 09 Apr 2025 | 
+
+
 <h1>🎯 Go (Golang) CLI Workflow for Projects</h1>
 
 <h3>1. 📁 Create project directory</h3>
