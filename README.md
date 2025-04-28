@@ -26,7 +26,7 @@ Summary Table of Reserved Keywords:
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Control Flow**      | `break`, `case`, `continue`, `default`, `fallthrough`, `for`, `go`, `goto`, `if`, `else`, `select`, `switch`                                      |
 | **Data Types**        | `bool`, `byte`, `complex64`, `complex128`, `float32`, `float64`, `int`, `int8`, `int16`, `int32`, `int64`, `string`, `uint`, `uint8`, `uint16`, `uint32`, `uint64`, `uintptr` |
-| **Declarations**      | `const`, `defer`, `func`, `interface`, `map`, `struct`, `type`, `var`                                                                             |
+| **Declarations**      | `const`, `defer`, `func`,`map`, `var`                                                                             |
 | **Concurrency**       | `chan`, `go`, `select`                                                                                                                            |
 | **Types**             | `interface`, `struct`, `type`                                                                                                                     |
 | **Other**             | `nil`, `panic`, `recover`, `import`, `package`
