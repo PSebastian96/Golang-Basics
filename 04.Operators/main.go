@@ -20,6 +20,36 @@ func main() {
 	// fmt.Println("A++ =", A) //Increment  11
 	// A--
 	// fmt.Println("A-- =", A) //Decrement  10
+
+	// These operators can be used before (prefix) or after (postfix) the variable. 
+	// Prefix (++x or --x): The value is updated first, and then the new value is used in the expression.
+    	// Postfix (x++ or x--): The current value is used in the expression first, then it is updated. 
+	//x := 5 
+	// Postfix increment: value used first, then incremented 
+	//fmt.Println(x++) 	// 5 (current value) 
+	//fmt.Println(x) 		// 6 (after increment) 
+
+	// Prefix increment: value incremented first, then used 
+	//fmt.Println(++x)	 // 7 (incremented value) 
+
+	// Decrement 
+	//fmt.Println(x--)	 // 7 (current value) 
+	//fmt.Println(x) 		// 6 (after decrement) 
+
+	/*in Go, i.e., they cannot be part of an expression like a + b++. 
+ 	They must be used on their own (e.g., x++).
+  	*/
+
+	// incements by 10
+	// i += 10
+	// decrements by 10
+	// i -= 10
+		
+	// multiply by 10
+	// i *= 10
+	// divide by 10
+	// i /= 10
+	
 	//********************************
 
 	// Relational operators - Comparison Operators
